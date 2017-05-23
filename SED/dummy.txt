@@ -1,4 +1,4 @@
 There is another memory area called hold buffer which is also private, in- memory, volatile storage area.
 Data can be stored in a hold buffer for later retrieval.
 At the end of each cycle, SED removes the contents of the pattern buffer but the contents of the hold buffer remains persistent between SED cycles.
-However SED commands cannot be directly executed on hold buffer, hence SED allows data movement between the hold buffer and the pattern buffer.
+However SED commands cannot be directly executed on hold buffer,hence SED allows data movement between the hold buffer and the pattern buffer.
